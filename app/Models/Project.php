@@ -8,7 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Project extends Model
 {
     use HasFactory;
-
-    //Posso metterci il nome di una tabella!
-    protected $table = 'project';
+    protected $table = 'projects';
 }
