@@ -16,6 +16,7 @@ class ApiController extends Controller
             $dati
         );
     }
+
     public function getProjects()
     {
         $projects = Project::all();
